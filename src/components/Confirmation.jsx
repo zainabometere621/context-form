@@ -31,10 +31,10 @@ export default function Confirmation() {
             
           />
 
-          <div className="flex sm:flex-row justify-center gap-4">
+          <div className="flex sm:flex-row justify-between gap-4">
               <button 
                 onClick={()=> setStep(2)}
-                className="py-2 px-6 bg-gray-600 text-white rounded-lg shadow hover:bg-gray-700 self-start"
+                className="py-2 px-6 bg-gray-600 text-white rounded-lg shadow hover:bg-gray-700"
               
               >
                 Go Back
@@ -42,7 +42,7 @@ export default function Confirmation() {
 
               <button
                 onClick={() => alert("Form Submitted!")}
-                className="py-2 px-6 bg-green-600 text-white rounded-lg shadow hover:bg-green-700 self-end"
+                className="py-2 px-6 bg-green-600 text-white rounded-lg shadow hover:bg-green-700"
               >
                 Submit
               </button>

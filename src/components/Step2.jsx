@@ -15,17 +15,17 @@ export default function Step2() {
                  onChange={(e) => setFormData({...formData, address: e.target.value})}
                 />
 
-                <div className="flex flex-col sm:flex-row justify-center gap-4">
+                <div className="flex sm:flex-row justify-between gap-4">
                   <button 
                     onClick={()=> setStep(1)}
-                    className="py-2 px-6 bg-gray-600 text-white rounded-lg shadow hover:bg-gray-700 self-start"
+                    className="py-2 px-6 bg-gray-600 text-white rounded-lg shadow hover:bg-gray-700"
                   >
                   Previous
                   </button>
 
                   <button 
                     onClick={()=> setStep(3)}
-                    className="py-2 px-6 bg-green-600 text-white rounded-lg shadow hover:bg-green-700 self-end"
+                    className="py-2 px-6 bg-green-600 text-white rounded-lg shadow hover:bg-green-700"
                   
                   >
                   Next
